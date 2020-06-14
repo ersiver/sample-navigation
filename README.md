@@ -5,7 +5,7 @@ This app was built following AndroidDevelopers Codelabs. The app demonstrates:
 + Definition of the path from one destination to another, 
 + Use of the Navigation Graph to create an action that connects the destinations. 
 + How to connect the drawer to the navigation controller. 
-+ Hot to link the navigation controller to the app bar with up button. 
++ How to link the navigation controller to the app bar with up button. 
 + Controlling back button with navigation.
 + Conditional navigation.
 + Navigation using the options menu
