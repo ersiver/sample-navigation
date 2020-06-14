@@ -1,20 +1,50 @@
-# sample-navigation
-This app was built following AndroidDevelopers Codelabs. The app demonstrates:
+AndroidTrivia - starter code
+============================
 
-+ Android navigation library.
-+ Definition of the path from one destination to another 
-+ Use of the Navigation Graph to create an action that connects the destinations. 
-+ Connection of the drawer to the navigation controller. 
-+ How to link the navigation controller to the app bar (up button). 
-+ Controlling back button with navigation.
-+ Navigation using the options menu.
-+ Implicit intent, “share" menu and external activity. 
-+ Passing arguments between NavDirections with Safe Args Gradle plugin for type safety.
+Starter code for Android Kotlin Fundamentals codelab 3.1: Create and add a
+fragment.
 
-## Preview
-![1](https://user-images.githubusercontent.com/58771510/84592416-7eb12c80-ae3d-11ea-962e-8db87794dc74.gif)
+Introduction
+------------
 
-![2](https://user-images.githubusercontent.com/58771510/84592420-8244b380-ae3d-11ea-8fed-05dd6525f8f2.gif)
+The AndroidTrivia app asks the user trivia questions about Android development.
+It makes use of the navigation component within Jetpack to move the user between
+screens. Each screen is implemented as a fragment.
 
-## License
-+ Copyright 2019 Google, Inc (all resources are from AndroidDevelopers Codelabs). 
+The app navigates using buttons, the app bar, and a navigation drawer. Because
+students haven't yet learned about saving data or the Android lifecycle, the app
+tries to eliminate bugs caused by configuration changes.
+
+Prerequisites
+-------------
+
+You need to know:
+- The fundamentals of Kotlin.
+- How to create basic Android apps in Kotlin.
+- How to open, build, and run apps with Android Studio.
+- How to work with layouts.
+
+Getting started
+---------------
+
+1. Download and run the app.
+
+License
+-------
+
+Copyright 2019 Google, Inc.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
